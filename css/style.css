@@ -1,18 +1,97 @@
-.ms-header {
-    min-height: 90px;
+/* -----BACKGROUND COLORS----- */
+.ms-bg-green {
+    background-color: #1ABC9C;
+}
+
+.ms-bg-petrol {
     background-color: #2C3E50;
-    color: white;
+}
+
+.ms-bg-mildred {
+    background-color: #BA4B63;
+}
+
+.ms-bg-lightblue {
+    background-color: #1EA486;
+}
+
+.ms-bg-dark {
+    background-color: #140F0F;
+}
+
+.ms-bg-seablue {
+    background-color: #1C83C1;
+}
+
+.ms-bg-elecblue {
+    background-color: #0e38b5;
+}
+
+.ms-bg-sand {
+    background-color: #CCB2A3;
+}
+
+.ms-bg-greyblue {
+    background-color: #3A546D;
+}
+
+.ms-bg-white {
+    background-color: white;
+}
+
+
+/* -----HEIGHTS & WIDTHS----- */
+.ms-90 {
+    min-height: 90px;
+}
+
+.ms-h-8 {
+    height: 8rem;
+}
+
+.ms-h-3 {
+    height: 3rem;
+}
+
+.ms-h-5 {
+    height: 5rem;
+}
+
+.fa-brands {
+    width: 2rem;
+    height: 2rem;
+    padding: .5rem;
+}
+
+
+/* -----MARGINS & PADDINGS----- */
+.ms-mt-1 {
+    margin-top: 1rem;
+}
+
+.ms-mt-2 {
+    margin-top: 2rem;
+}
+
+.ms-mb-2 {
+    margin-bottom: 2rem;
+}
+
+.ms-p-3 {
+    padding: 3rem;
+}
+
+
+/* -----ITEMS----- */
+.ms-round-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 .ms-hamburger {
     height: 35px;
     width: 45px;
-    background-color: blueviolet;
-}
-
-.ms-start {
-    background-color: #1ABC9C;
-    color: white;
 }
 
 .ms-img {
@@ -24,9 +103,10 @@
 .ms-star {
     width: 230px;
     height: 35px;
-    background-color: cyan;
 }
 
-.ms-mt-2 {
-    margin-top: 2rem;
+.ms-btn {
+    display: inline-block;
+    padding: .5em;
+    border: 1px solid white;
 }
