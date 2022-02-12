@@ -41,6 +41,11 @@
 
 
 /* -----HEIGHTS & WIDTHS----- */
+.ms-w250 {
+    width: 250px;
+    max-width: 100%;
+}
+
 .ms-h-8 {
     height: 8rem;
 }
@@ -61,16 +66,8 @@
 
 
 /* -----MARGINS & PADDINGS----- */
-.ms-mt-1 {
-    margin-top: 1rem;
-}
-
-.ms-mt-2 {
-    margin-top: 2rem;
-}
-
-.ms-mb-2 {
-    margin-bottom: 2rem;
+.mt-6 {
+    margin-top: 4.5rem;
 }
 
 .ms-p-3 {
@@ -79,30 +76,30 @@
 
 
 /* -----ITEMS----- */
+.star hr {
+    display: inline-block;
+    width: 100px;
+    max-width: 25%;
+    height: 4px;
+    border-radius: 2px;
+    vertical-align:middle;
+    opacity: 1;
+}
+
 .ms-round-img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
 }
 
-/* .ms-hamburger {
-    height: 35px;
-    width: 45px;
-} */
-
-.ms-img {
-    width: 230px;
-    height: 255px;
-    background-color: #2C3E50;
-}
-
-.ms-star {
-    width: 230px;
-    height: 35px;
-}
-
 .ms-btn {
     display: inline-block;
     padding: .5em;
     border: 1px solid white;
+}
+
+/* -----HOVER----- */
+.btn-dl:hover {
+    color: #1ABC9C !important;
+    background-color: white;
 }
