@@ -71,6 +71,16 @@
     opacity: 1;
 }
 
+.plus {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-size: 80px;
+    color: white;
+    display: none;
+}
+
 .form textarea {
     resize: both;
     min-height: 10rem;
@@ -84,6 +94,23 @@
 }
 
 /* -----HOVER----- */
+.hamburger:hover .fa-bars{
+    background-color: white;
+    color: #2C3E50;
+}
+
+nav .list-inline-item a:hover {
+    color: #1ABC9C !important;
+}
+
+.pf-item:hover {
+    filter: grayscale(1);
+    cursor: pointer;
+}
+.pf-item:hover .plus {
+    display: flex;
+}
+
 .btn-dl:hover {
     color: #1ABC9C !important;
     background-color: white;
