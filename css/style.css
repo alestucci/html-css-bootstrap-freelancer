@@ -1,6 +1,6 @@
 /* -----BACKGROUND COLORS----- */
 .ms-bg-green {
-    background-color: #1ABC9C;
+    background-color: rgb(26, 188, 156);
 }
 
 .ms-bg-petrol {
@@ -42,29 +42,18 @@
     max-width: 100%;
 }
 
-.ms-h-8 {
-    height: 8rem;
-}
-
-.ms-h-3 {
-    height: 3rem;
-}
-
-.ms-h-5 {
-    height: 5rem;
-}
-
 
 /* -----MARGINS & PADDINGS----- */
 .mt-6 {
     margin-top: 4.5rem;
 }
 
+
 /* -----ITEMS----- */
 .star hr {
     display: inline-block;
     width: 100px;
-    max-width: 25%;
+    max-width: 20%;
     height: 4px;
     border-radius: 2px;
     vertical-align:middle;
@@ -72,12 +61,13 @@
 }
 
 .plus {
-    width: 100%;
-    height: 100%;
     left: 0;
     top: 0;
-    font-size: 80px;
-    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+    background-color: rgba(26, 188, 156, 0);
+    color: transparent;
     display: none;
 }
 
@@ -104,17 +94,17 @@ nav .list-inline-item a:hover {
 }
 
 .pf-item:hover {
-    filter: grayscale(1);
     cursor: pointer;
 }
 
 .pf-item:hover .plus {
     display: flex;
+    background-color: rgba(26, 188, 156, .4);
+    color: white;
 }
 
 .btn-dl:hover {
     color: #1ABC9C !important;
-    background-color: white;
 }
 
 .btn-snd:hover {
